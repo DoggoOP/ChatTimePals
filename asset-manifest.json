@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ChatTimePals/static/css/main.11c7cb0c.css",
-    "main.js": "/ChatTimePals/static/js/main.25fea660.js",
+    "main.js": "/ChatTimePals/static/js/main.70200728.js",
     "reactPlayerYouTube.js": "/ChatTimePals/static/js/reactPlayerYouTube.f2e22ca9.chunk.js",
     "reactPlayerSoundCloud.js": "/ChatTimePals/static/js/reactPlayerSoundCloud.de15cc77.chunk.js",
     "reactPlayerVimeo.js": "/ChatTimePals/static/js/reactPlayerVimeo.71142f95.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/logo.svg": "/ChatTimePals/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ChatTimePals/index.html",
     "main.11c7cb0c.css.map": "/ChatTimePals/static/css/main.11c7cb0c.css.map",
-    "main.25fea660.js.map": "/ChatTimePals/static/js/main.25fea660.js.map",
+    "main.70200728.js.map": "/ChatTimePals/static/js/main.70200728.js.map",
     "reactPlayerYouTube.f2e22ca9.chunk.js.map": "/ChatTimePals/static/js/reactPlayerYouTube.f2e22ca9.chunk.js.map",
     "reactPlayerSoundCloud.de15cc77.chunk.js.map": "/ChatTimePals/static/js/reactPlayerSoundCloud.de15cc77.chunk.js.map",
     "reactPlayerVimeo.71142f95.chunk.js.map": "/ChatTimePals/static/js/reactPlayerVimeo.71142f95.chunk.js.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.11c7cb0c.css",
-    "static/js/main.25fea660.js"
+    "static/js/main.70200728.js"
   ]
 }
