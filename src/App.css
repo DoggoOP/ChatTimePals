@@ -1,38 +1,90 @@
+body {
+  /* Add a gradient background */
+  background: linear-gradient(0deg, #add8e6, #00008b);
+  /* Center all elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white; /* Change text color to white for better contrast */
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Emoji {
+  font-size: 10em;
+  margin-bottom: 20px;
+}
+
+.language-select, .character-input, .text-input {
+  padding: 10px;
+  border: none;
+  /* Change the background to light gray */
+  background: #f3f3f3;
+  color: black;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  /* Add a transition for the hover effect */
+  transition: background 0.3s ease-in-out;
+}
+
+.language-select:hover, .character-input:hover, .text-input:hover {
+  /* Darken the background on hover */
+  background: #d3d3d3;
+}
+
+.language-select:focus, .character-input:focus, .text-input:focus {
+  /* Add a box shadow on focus */
+  box-shadow: 0 0 10px #f3f3f3;
+  outline: none;
+}
+
+.confirm-language-button, .submit-character-button, .submit-text-button {
+  padding: 10px 20px;
+  border: none;
+  /* Change the background to a pinkish-orange gradient */
+  background: linear-gradient(45deg, #FFB6C1, #FFA07A);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  /* Add a transition for the hover effect */
+  transition: background 0.3s ease-in-out;
+}
+
+.confirm-language-button:hover, .submit-character-button:hover, .submit-text-button:hover {
+  /* Change the gradient direction on hover */
+  background: linear-gradient(-45deg, #FFB6C1, #FFA07A);
+}
+
+
+.App-title {
+  font-size: 5em;
+  color: #ffffff;
+  margin-top: 20rem;
+  /* Add a simple animation */
+  animation: App-title-fade-in 3s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes App-title-fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
