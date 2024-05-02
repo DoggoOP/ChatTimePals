@@ -1,5 +1,5 @@
 # Chat Time Pals
-[![Demonstration](<img width="781" alt="Screenshot 2024-05-02 at 12 47 28 PM" src="https://github.com/DoggoOP/ChatTimePals/assets/80930499/c50798a6-90e9-49d7-bc4a-a8765ebbd57d">)](https://youtu.be/04nApDnSx0E)
+[![Demonstration](https://i3.ytimg.com/vi/04nApDnSx0E/maxresdefault.jpg)](https://youtu.be/04nApDnSx0E)
 
 
 ## Inspiration
