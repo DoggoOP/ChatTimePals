@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# Chat Time Pals
+[![Demonstration](https://youtu.be/04nApDnSx0E.jpg)](https://youtu.be/04nApDnSx0E)
+
+## Inspiration
+I always found chat gpt interesting and I wanted to do something to explore the API
+
+## What it does
+It asks the user what language they speak, so it pre-configures the google cloud translate and text-to-speech to be able to take in the language. It also asks the user who they want to talk to, and I used a prompt to make chat gpt act like said person. Then, for what message you send, it sends an API request to Openai to generate an answer, and that answer is sent to Google Cloud to be translated to your language; then, it is once again sent to Google Cloud to be synthesized into a human-like voice.
+
+## How we built it
+I used reactJS.
+
+## Challenges we ran into
+I didn't know you couldn't send API requests from a web browser, so I had to send post requests to my new server actually to make the API requests. I may have leaked my API key when uploading to github because I forgot to delete all the console prints I used for debugging so I am trying to fix that.
+
+## Accomplishments that we're proud of
+This is my first solo hackathon
+
+## What we learned
+How to properly use APIs that have outputs.
+
+## What's next for Chat Time Pals
+make the UI nicer, use real speech synthesis so the voice matches the person.
+
+## Built With
+google-cloud
+openai
+react
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
